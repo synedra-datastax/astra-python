@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 setup(
-    name='edgegrid-python', 
+    name='astra-python', 
     version='1.1.1', 
-    description='{OPEN} client authentication protocol for python-requests',
-    author='Jonathan Landis',
-    author_email='jlandis@akamai.com',
-    url='https://github.com/akamai-open/AkamaiOPEN-edgegrid-python',
-    namespace_packages=['akamai'],
+    description='Datastax Client authentication protocol for python-requests',
+    author='Kirsten Hunter',
+    author_email='kirsten.hunter@datastax.com,
+    url='https://github.com/synedra-datastax/astra-python',
+    namespace_packages=['astra'],
     packages=find_packages(),
-    python_requires=">=2.7.10",
+    python_requires=">=3.5",
     install_requires = [
         'requests>=2.3.0',
         'pyOpenSSL >= 0.13',
